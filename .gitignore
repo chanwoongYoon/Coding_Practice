@@ -200,4 +200,42 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/node,macos,windows
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Python & AI Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# AI/ML Model Weights and Checkpoints
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+*.pb
+*.tflite
+*.pkl
+*.npy
+*.npz
+
+# Jupyter Notebook Cache and Checkpoints
+.ipynb_checkpoints/
